@@ -383,7 +383,7 @@ var Module = window.Module || {
 
 Module['onRuntimeInitialized'] = function() {
 	FS.mkdir('/sf2');
-	FS.createPreloadedFile('/sf2', 'piano.sf3', 'piano.sf3', true, false,
+	FS.createPreloadedFile('/sf2', 'piano.sf3', '/naivesound/_scherzo/master/piano.sf3', true, false,
 			 () => { main(); });
 };
 
